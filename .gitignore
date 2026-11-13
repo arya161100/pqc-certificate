@@ -1,0 +1,13 @@
+# Secrets — never commit these.
+.env
+.env.local
+.env.*.local
+
+# Dependencies & build output.
+node_modules/
+app/node_modules/
+app/dist/
+out/
+
+# Local-chain deployments only (testnet deployments are kept: deployments/qorechain-diana-9800.json).
+deployments/chain-*.json
