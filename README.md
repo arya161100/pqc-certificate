@@ -30,9 +30,9 @@ Two issuance paths:
 | Frontend (Vite + React + viem, Issue/Verify) | ✅ Builds + serves (`app/`) |
 | Testnet RPC live (`evm-testnet.qore.host`, chain 9800) | ✅ Verified read-only |
 | User's QoreX EVM address has a registered PQ key | ✅ Verified (`pqcKeyStatus`: registered=true, alg 1) |
-| Deploy to testnet | ⏳ Needs user (faucet + EVM window + key) — see [DEPLOY.md](DEPLOY.md) |
-| Frontend hosting (demo URL) | ⏳ Needs user — see [DEPLOY.md](DEPLOY.md) |
-| Submit to the fest | ⏳ Needs user approval — see [SUBMIT.md](SUBMIT.md) |
+| Deploy to testnet | ✅ Done 14 Nov 2026 — PQCVerifier `0xebd4666c3795f4a563e65596d42713cb41437073`, PQCCertificate `0x48950af0197506a605bfdedaf553e795e08f28fb` (chain 9800), demo certificate issued, `verifyCertificate: valid=true` |
+| Frontend hosting (demo URL) | ✅ Done — https://arya161100.github.io/pqc-certificate/ (GitHub Pages) |
+| Submit to the fest | ⏳ In progress — project creation approved 14 Nov 2026 — see [SUBMIT.md](SUBMIT.md) |
 | On-chain `pqcVerify` proof path with a real ML-DSA signature | ⚠️ Contract-ready, unproven on testnet until deploy (see below) |
 
 ## Project layout

@@ -1,0 +1,21 @@
+{
+  "network": "qorechain-diana",
+  "chainId": 9800,
+  "rpc": "https://evm-testnet.qore.host",
+  "deployer": "0xec138675380DD8c19d05Bb14BadFa2F6Ba82d082",
+  "contracts": {
+    "PQCVerifier": {
+      "address": "0xebd4666c3795f4a563e65596d42713cb41437073",
+      "tx": "0x6525fa2373040dfc5e31aca93c3458bfe9310c8f429bfeb5d25433fbb2c00087"
+    },
+    "PQCCertificate": {
+      "address": "0x48950af0197506a605bfdedaf553e795e08f28fb",
+      "tx": "0xab4874e840df3fff46acbfdab7b781f70cd3cc7acbf87b71c19f3efa1adddca6"
+    }
+  },
+  "demoCertificate": {
+    "documentHash": "0x5693b99438492987c0721249851cd9b68ffa855ceca7530f27c793ffe581f895",
+    "issueTx": "0xac759a657040c4e274ba0c2c04ca8c5f33634d395c021054b1d9c1644193fa27"
+  },
+  "deployedAt": "2026-11-13T20:11:01.033Z"
+}
