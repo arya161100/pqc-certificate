@@ -4,6 +4,8 @@ Post-quantum certificates on QoreChain testnet — built for the QoreChain
 Developer Fest **"Build Before Q-Day"**, category **Quantum Pass** (solo,
 Level Quantum Pass).
 
+> **Fest project:** [PQC Certificate — build.qorechain.io/p/pqc-certificate](https://build.qorechain.io/p/pqc-certificate) · Quantum Pass · Indonesia
+
 A certificate binds a document hash to an issuer, a title and a recipient,
 and stores the record on-chain so anyone can verify that a document was
 certified by a given address at a given time. Only the `keccak256` hash of a
@@ -32,7 +34,7 @@ Two issuance paths:
 | User's QoreX EVM address has a registered PQ key | ✅ Verified (`pqcKeyStatus`: registered=true, alg 1) |
 | Deploy to testnet | ✅ Done 14 Nov 2026 — PQCVerifier `0xebd4666c3795f4a563e65596d42713cb41437073`, PQCCertificate `0x48950af0197506a605bfdedaf553e795e08f28fb` (chain 9800), demo certificate issued, `verifyCertificate: valid=true` |
 | Frontend hosting (demo URL) | ✅ Done — https://arya161100.github.io/pqc-certificate/ (GitHub Pages) |
-| Submit to the fest | ⏳ In progress — project creation approved 14 Nov 2026 — see [SUBMIT.md](SUBMIT.md) |
+| Submit to the fest | ✅ Done 14 Nov 2026 — project: https://build.qorechain.io/p/pqc-certificate — see [SUBMIT.md](SUBMIT.md) |
 | On-chain `pqcVerify` proof path with a real ML-DSA signature | ⚠️ Contract-ready, unproven on testnet until deploy (see below) |
 
 ## Project layout
